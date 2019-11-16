@@ -1,3 +1,5 @@
+package javaspaceinvaders;
+
 import javax.swing.ImageIcon;
 
 /**
@@ -5,7 +7,7 @@ import javax.swing.ImageIcon;
  * @author 
  */
 public class Won extends Sprite implements Commons{
-    private final String won = "/img/won.jpg";
+    private final String won = "./img/won.jpg";
     private int width;
 
     /*

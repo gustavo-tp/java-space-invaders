@@ -1,3 +1,5 @@
+package javaspaceinvaders;
+
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
@@ -40,8 +42,8 @@ public class Board extends JPanel implements Runnable, Commons {
 
 	private boolean ingame = true;
 	private boolean havewon = true;
-	private final String expl = "/img/explosion.png";
-	private final String alienpix = "/img/alien.png";
+	private final String expl = "./img/explosion.png";
+	private final String alienpix = "./img/alien.png";
 	private String message = "Seu planeta nos pertence agora...";
 
 	private Thread animator;
@@ -67,7 +69,7 @@ public class Board extends JPanel implements Runnable, Commons {
 	public void gameInit() {
 		aliens = new ArrayList();
 
-		ImageIcon ii = new ImageIcon(this.getClass().getResource(alienpix));
+	ImageIcon ii = new ImageIcon(this.getClass().getResource(alienpix));
 
 		for (int i = 0; i < 4; i++) {
 			for (int j = 0; j < 6; j++) {
@@ -187,7 +189,7 @@ public class Board extends JPanel implements Runnable, Commons {
 	public void animationCycle() {
 		if (deaths == NUMBER_OF_ALIENS_TO_DESTROY) {
 			ingame = false;
-			message = "Parabéns! Você salvou a galáxia!";
+			message = "ParabÃ©ns! VocÃª salvou a galÃ¡xia!";
 		}
 
 		// player
@@ -266,7 +268,7 @@ public class Board extends JPanel implements Runnable, Commons {
 				if (y > GROUND - ALIEN_HEIGHT) {
 					havewon = false;
 					ingame = false;
-					message = "Aliens estão invadindo a galáxia!";
+					message = "Aliens estï¿½o invadindo a galï¿½xia!";
 				}
 
 				alien.act(direction);

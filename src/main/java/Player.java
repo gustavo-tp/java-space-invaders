@@ -1,3 +1,5 @@
+package javaspaceinvaders;
+
 import java.awt.event.KeyEvent;
 
 import javax.swing.ImageIcon;
@@ -11,7 +13,7 @@ public class Player extends Sprite implements Commons {
 	private final int START_Y = 400;
 	private final int START_X = 270;
 
-	private final String player = "/img/craft.png";
+	private final String player = "./img/craft.png";
 	private int width;
 
 	/*

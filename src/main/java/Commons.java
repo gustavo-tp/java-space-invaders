@@ -1,3 +1,5 @@
+package javaspaceinvaders;
+
 /**
  * 
  * @author

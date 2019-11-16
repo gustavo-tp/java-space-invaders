@@ -1,3 +1,5 @@
+package javaspaceinvaders;
+
 import java.awt.Image;
 
 /**

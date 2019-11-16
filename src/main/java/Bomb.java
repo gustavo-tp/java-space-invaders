@@ -1,3 +1,5 @@
+package javaspaceinvaders;
+
 import javax.swing.ImageIcon;
 
 /**
@@ -6,7 +8,7 @@ import javax.swing.ImageIcon;
  */
 public class Bomb extends Sprite {
 
-	private final String bomb = "/img/bomb.png";
+	private final String bomb = "./img/bomb.png";
 	private boolean destroyed;
 
 	/*

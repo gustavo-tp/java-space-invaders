@@ -1,3 +1,5 @@
+package javaspaceinvaders;
+
 import javax.swing.ImageIcon;
 
 /**
@@ -6,7 +8,7 @@ import javax.swing.ImageIcon;
  */
 public class GameOver extends Sprite implements Commons {
 
-	private final String gameOver = "/img/gameover.png";
+	private final String gameOver = "./img/gameover.png";
 	private int width;
 
 	/*

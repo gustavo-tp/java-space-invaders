@@ -1,3 +1,5 @@
+package javaspaceinvaders;
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -18,21 +20,21 @@ public class SpaceInvaders extends JFrame implements Commons {
 	/*
 	 * Inicio
 	 */
-	private static final String TOP_MESSAGE = "Space Invaders <br> Java Version";
-	private static final String INITIAL_MESSAGE = "Ajude-nos, capitão impressionante!!"
-			+ "<br>Os alienígenas estão tentando invadir nosso planeta."
-			+ "<br><br><br>Sua missão:"
-			+ "<br><br>Matar todos os alienígenas invasores antes que eles consigam invadir o planeta Terra."
-			+ "<br>E, de preferência, não morra durante a batalha!"
+	private static final String TOP_MESSAGE = "Pacheco Invaders <br> Java Version";
+	private static final String INITIAL_MESSAGE = "Ajude-nos, capitÃ£o Pacheco!!"
+			+ "<br>Os acadÃªmicos que atrapalham a aula estÃ£o tentando invadir nosso planeta."
+			+ "<br><br><br>Sua missÃ£o:"
+			+ "<br><br>Matar todos os acadÃªmicos falantes antes que eles consigam invadir a sala de aula."
+			+ "<br>E, de preferÃªncia, nÃ£o caia na conversa!"
 			+ "<br><br><br>BOA SORTE!!!";
 	/*
 	 * Ajuda
 	 */
 	private static final String HELP_TOP_MESSAGE = "Ajuda";
 	private static final String HELP_MESSAGE = "Controles: " 
-							+ "<br><br>Movimento à Esquerda: <br>Seta Esquerda do teclado"
-							+ "<br><br>Movimento à Direita: <br>Seta Direita do teclado"
-							+ "<br><br>Atirar: <br>Barra de espaço";
+							+ "<br><br>Movimento Esquerda: <br>Seta Esquerda do teclado"
+							+ "<br><br>Movimento Direita: <br>Seta Direita do teclado"
+							+ "<br><br>Soltar laser do passador de slides: <br>Barra de espaÃ§o";
 
 	JFrame frame = new JFrame("Space Invaders");
 	JFrame frame2 = new JFrame("Space Invaders");
@@ -45,7 +47,7 @@ public class SpaceInvaders extends JFrame implements Commons {
 		String topmessage = "<html><br><br>" + TOP_MESSAGE + "</html>";
 		String message = "<html>" + INITIAL_MESSAGE + "</html>";
 
-		start = new JButton("Iniciar Missão");
+		start = new JButton("Iniciar MissÃ£o");
 		start.addActionListener(new ButtonListener());
 		start.setBounds(800, 800, 200, 100);
 
@@ -61,7 +63,7 @@ public class SpaceInvaders extends JFrame implements Commons {
 		Font font2 = new Font("Helvetica", Font.BOLD, 20);
 		toptekst.setFont(font2);
 
-		frame2.setTitle("Space Invaders");
+		frame2.setTitle("Pacheco Invaders");
 
 		frame2.add(tekst);
 

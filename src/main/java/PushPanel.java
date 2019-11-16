@@ -1,3 +1,5 @@
+package javaspaceinvaders;
+
 import java.awt.event.*;
 import javax.swing.*;
 

@@ -1,3 +1,5 @@
+package javaspaceinvaders;
+
 import javax.swing.ImageIcon;
 
 /**
@@ -7,7 +9,7 @@ import javax.swing.ImageIcon;
 public class Alien extends Sprite {
 
     private Bomb bomb;
-    private final String alien = "/img/alien.png";
+    private final String alien = "./img/alien.png";
 
     /*
      * Constructor
